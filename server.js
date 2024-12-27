@@ -3,7 +3,7 @@ import express from 'express';
 import resourcesRouter from './routes/resource-routes.js';
 import cors from 'cors';
 import * as dotenv from 'dotenv';
-import {CentralErrorHandler} from './middleware/centralErrorHandler.js';
+import {CentralErrorHandler} from './middleware/CentralErrorHandler.js';
 import serverSetup from './middleware/serverSetup.js';
 
 dotenv.config();
